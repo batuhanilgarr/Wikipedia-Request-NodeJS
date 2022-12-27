@@ -37,10 +37,10 @@ app.get("/find", async function (request, response) {
   response.json({sehir: request.query.sehir, url: url});
 });
 
-//start the server
-app.listen(8080);
-
-console.log("Something awesome to happen at http://localhost:8080");
+// //start the server
+// app.listen(8080);
+//
+// console.log("Something awesome to happen at http://localhost:8080");
 
 // const liveServer = require("live-server");
 
