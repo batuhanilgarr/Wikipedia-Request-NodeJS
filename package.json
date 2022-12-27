@@ -1,0 +1,27 @@
+{
+  "name": "wikipedia-request",
+  "version": "1.0.0",
+  "description": "\"# Node.js-puppeteer-\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "./node_modules/.bin/live-server --port=9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batuhanilgarr/Node.js-puppeteer-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batuhanilgarr/Node.js-puppeteer-/issues"
+  },
+  "homepage": "https://github.com/batuhanilgarr/Node.js-puppeteer-#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer": "^19.4.1"
+  }
+}
